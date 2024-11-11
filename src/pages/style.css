@@ -1,0 +1,145 @@
+.landing-container {
+  width: 100vw;
+  height: 100vh;
+  background: url("/The-Constitution/src/assets/bg.png") no-repeat center
+    center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-content {
+  text-align: center;
+  max-width: 500px;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background: #6a56fa;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background: #8b74ff;
+}
+/* Chatbot Button */
+.landing-container {
+  width: 100vw;
+  height: 100vh;
+  background: url("/The-Constitution/src/assets/bg.png") no-repeat center
+    center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.landing-content {
+  text-align: center;
+  max-width: 500px;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background: #6a56fa;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background: #8b74ff;
+}
+
+/* .chatbot-button {
+    background: #6a56fa;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-top: 1rem;
+  }
+  
+  .chatbot-button:hover {
+    background: #8b74ff;
+  }
+   */
+
+.chatbot-container {
+  background: #000;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chatbot-container p {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.chatbot-button {
+  background: #6a56fa;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.chatbot-button:hover {
+  background: #8b74ff;
+}
